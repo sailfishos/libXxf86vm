@@ -1,0 +1,28 @@
+Name: libXxf86vm
+Summary: X.Org X11 libXxf86vm runtime library
+Description: |
+    Extension library for the XFree86-VidMode X extension.
+Version: 1.1.1
+Release: 1
+Group: System/Libraries
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
+
+PkgConfigBR:
+    - x11
+    - xext
+    - xproto
+    - xextproto
+    - xf86vidmodeproto >= 2.2.99.1
+Configure: configure
+SubPackages:
+    - Name: devel
+      Summary: X.Org X11 libXxf86vm development package
+      Description: |
+          Extension development library for the XFree86-VidMode X extension
+      Group: System/Libraries
+      Requires:
+          - xorg-x11-filesystem
+

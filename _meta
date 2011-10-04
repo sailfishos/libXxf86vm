@@ -1,0 +1,8 @@
+<package project="Mer:Trunk:Base" name="libXxf86vm">
+  <title>X.Org X11 libXxf86vm runtime library</title>
+  <description>Description: %{summary}
+
+
+</description>
+  <url>http://www.x.org</url>
+</package>
