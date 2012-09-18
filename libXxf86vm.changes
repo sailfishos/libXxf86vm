@@ -1,3 +1,6 @@
+* Tue Sep 18 2012 Marko Saukko <marko.saukko@jollamobile.com> - 1.1.2
+- Fixes MER#463: update libXxf86vm to 1.1.2
+
 * Mon Jun 13 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.1.1
 - Updated to 1.1.1
 
